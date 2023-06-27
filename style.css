@@ -82,7 +82,7 @@ main article p {
     background-color: #E4EEF1;
     display: flex;
     align-items: center;
-   
+   justify-content: center;
 
 }
 
@@ -90,13 +90,9 @@ main article p {
     display: flex;
     justify-content: space-evenly;
     height: 35vh;
-    width: 80vw;
-
+    width: 25vw;
 }
 
-.urso3 { 
-    margin-top: 20px;
-  }
 
 footer {
     background-color: #4B93BF;
@@ -126,3 +122,18 @@ footer section figure {
     transition: 240ms;
     scale:1.1;
   }
+
+
+  .polar:hover{
+    transition:240ms;
+    scale:1.1;
+    opacity:0.8;
+  }
+
+img#urso3{
+    margin-top: 11px;
+   width: 14vw;
+   
+   
+    
+}
